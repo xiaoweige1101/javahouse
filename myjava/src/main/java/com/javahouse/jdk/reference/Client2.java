@@ -17,6 +17,7 @@ public class Client2 {
         WeakReference<Apple> appleWeakReference2 = new WeakReference<Apple>(new Apple("毒苹果"), appleReferenceQueue);
 
         System.out.println("=====gc调用前=====");
+        Apple apple = appleWeakReference.get();
 
         Reference<? extends Apple> reference = null;
 
