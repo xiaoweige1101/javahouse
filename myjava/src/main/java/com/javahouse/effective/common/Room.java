@@ -1,7 +1,7 @@
 package com.javahouse.effective.common;
 
 
-import sun.misc.Cleaner;
+//import sun.misc.Cleaner;
 
 public class Room implements AutoCloseable {
 
